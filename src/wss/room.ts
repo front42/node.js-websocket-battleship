@@ -1,6 +1,7 @@
 import { Player } from './player';
 
 export class Room {
+  turnCounter: number = 1;
   constructor(
     player: Player,
     public roomId: string,

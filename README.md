@@ -4,16 +4,18 @@ adding backend to Battleship game.
 Made with Node.js 20.9.0 LTS.  
 <img src="https://rolling-scopes-school.github.io/front42-JSFE2021Q1/presentation/z/front42.jpg" alt="logo" height="23"/>  
 Clone this repository - for example with SSH: **git clone** git@github.com:front42/node.js-websocket-battleship.git  
-Go to project directory and install dependencies - **npm i**  
+Go to project directory, switch **git checkout develop** and install dependencies - **npm i**  
 Use these commands to enjoy, for example:
 - npm run **start:dev** - runs project in development mode
 - npm run **start** - runs project in production mode building dist folder
 - npm run **build** - builds project in dist folder
 
 Then you'll see report in the terminal: *Start static http server on http://localhost:8181/*  
-Push Ctrl and click to its address - the game will open in browser, connecting via WebSocket -  
+Push Ctrl and click to address - the game will open in browser, connecting via WebSocket -  
 all important reports will also be visible in the terminal, for example messages of failed validation  
 when player with such name already exists or when player tries to create many rooms for himself, etc.  
+**PS:** Due to lack of time, the game was implemented partially - and as bloodlessly as possible:  
+after the first hit, the winner is immediately declared and peace comes.  
 
 ### Task assignments: https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/battleship/assignment.md
 ### Task base repository: https://github.com/rolling-scopes-school/websockets-ui
